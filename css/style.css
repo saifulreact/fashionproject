@@ -4,40 +4,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap');
 
 /* ============ common css part start ====================== */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
-ul,li{
+
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
 }
-img{
+
+img {
     max-width: 100%;
     vertical-align: middle;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
     outline: none;
 }
-.container{
+
+.container {
     width: 1320px;
     margin: 0 auto;
 }
+
 /* ============ common css part end ====================== */
 
 
-:root{
-    --font-poopins:"Poppins", sans-serif;
-    --color-brandcolor:#000000;
-    --font-frankrahul:"Frank Ruhl Libre", serif;
-    --font-poncova:"Podkova", serif;
+:root {
+    --font-poopins: "Poppins", sans-serif;
+    --color-brandcolor: #000000;
+    --font-frankrahul: "Frank Ruhl Libre", serif;
+    --font-poncova: "Podkova", serif;
 }
 
 
@@ -48,38 +61,44 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ========  navbar css part start ====================== */
 
-.logo_col img{
+.logo_col img {
     width: 133px;
-    
+
 }
-.main_row{
+
+.main_row {
     display: flex;
     justify-content: space-between;
     padding-top: 47px;
-    padding-left: 5px ;
+    padding-left: 5px;
     padding-right: 5px;
     align-items: center;
 
 }
+
 .menu_col ul {
     display: flex;
     gap: 59px;
 }
-.menu_col ul li a{
+
+.menu_col ul li a {
     font-size: 24px;
     font-weight: 600;
     font-family: var(--font-poopins);
     color: var(--color-brandcolor);
     transition: all linear .4s;
 }
-.menu_col ul li a:hover{
+
+.menu_col ul li a:hover {
     color: #FDBB57;
 }
-.btn{
+
+.btn {
     display: flex;
     gap: 10px;
 }
-.btn a{
+
+.btn a {
     background: transparent;
     padding: 10px 27px;
     border: 1px solid #000000;
@@ -91,25 +110,29 @@ h1,h2,h3,h4,h5,h6,p{
     color: #000000;
     font-family: var(--font-poopins);
 }
-.btn a:hover{
+
+.btn a:hover {
     background: #FDBB57;
 }
+
 /* ============   navbar css part end ====================== */
 
 /* ============ banner css part start ====================== */
-#banner_part_start{
+#banner_part_start {
     width: 100%;
     min-height: 100vh;
     background: #FAE3B6;
     margin-bottom: 217px;
     padding-bottom: 102px;
 }
-.banner_row_part_start{
+
+.banner_row_part_start {
     display: flex;
     justify-content: space-between;
     margin-top: 134px;
 }
-.text_col h1{
+
+.text_col h1 {
     width: 436px;
     font-family: var(--font-poopins);
     color: var(--color-brandcolor);
@@ -117,7 +140,8 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 64px;
 
 }
-.text_col p{
+
+.text_col p {
     width: 515px;
     color: var(--color-brandcolor);
     font-size: 22px;
@@ -126,7 +150,8 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 76px;
     margin-top: 38px;
 }
-.banner_btn a{
+
+.banner_btn a {
     padding: 25px 91px;
     background: var(--color-brandcolor);
     color: #ffffff;
@@ -135,9 +160,10 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 600;
     border-radius: 10px;
 }
+
 /* ============ banner css part end ====================== */
 /* ============ collection css part start ====================== */
-.collection_head h2{
+.collection_head h2 {
     margin-bottom: 28px;
     font-size: 64px;
     font-weight: bold;
@@ -145,41 +171,47 @@ h1,h2,h3,h4,h5,h6,p{
     color: var(--color-brandcolor);
     text-align: center;
 }
-.collection_card_row{
+
+.collection_card_row {
     display: flex;
     justify-content: space-between;
 }
-.cardOne{
+
+.cardOne {
     position: relative;
-     
+
 }
-.line{
+
+.line {
     padding: 9px 108px;
     border-radius: 20px;
     background: #ffffff;
     top: 300px;
     left: 17%;
     position: absolute;
-   
+
 
 }
+
 /* ============ collection css part end ====================== */
 /* ============ fashion css part start ====================== */
-#fashion_part_start{
+#fashion_part_start {
     margin-top: 236px;
     display: flex;
-    
+
 }
 
-.fashion_text_aprt .collection_head h2{
+.fashion_text_aprt .collection_head h2 {
     width: 437px;
 }
-.night{
+
+.night {
     display: flex;
     flex-direction: column;
     align-items: end;
 }
-.normal_text p{
+
+.normal_text p {
     width: 443px;
     font-size: 24px;
     font-family: var(--font-poopins);
@@ -188,58 +220,67 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 63px;
     margin-bottom: 132px;
 }
-.counter_part_star{
+
+.counter_part_star {
     width: 793px;
     height: 280px;
     background: #FEECC8;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-  
+
 }
-.counter_one{
+
+.counter_one {
     display: flex;
     align-items: center;
 }
-.ousline{
+
+.ousline {
     width: 143px;
     height: 1px;
     background: #000000;
     transform: rotate(90deg);
 }
-.counter_one h3{
+
+.counter_one h3 {
     font-family: var(--font-poncova);
     font-weight: bold;
     font-size: 64px;
     color: var(--color-brandcolor);
 }
-.counter_one p{
+
+.counter_one p {
     font-size: 28px;
     font-family: var(--font-poopins);
     font-weight: 500;
     color: var(--color-brandcolor);
 }
+
 /* ============ fashion css part end ====================== */
 /* ============ footer css part start ====================== */
-#footer_aprtr_start{
+#footer_aprtr_start {
     width: 100%;
     min-height: 100vh;
     background: #CFA485;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.footer_contenet_part{
+
+.footer_contenet_part {
     padding-top: 36px;
     display: flex;
     justify-content: space-between;
 }
-.tecxt_footer h2{
+
+.tecxt_footer h2 {
     font-size: 64px;
     font-family: var(--font-frankrahul);
     font-weight: bold;
     color: #ffffff;
     width: 315px;
 }
-.tecxt_footer p{
+
+.tecxt_footer p {
     width: 437px;
     height: 270px;
     font-size: 24px;
@@ -249,7 +290,8 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 43px;
     margin-bottom: 40px;
 }
-.footer_btn a{
+
+.footer_btn a {
     padding: 24px 86px;
     background: var(--color-brandcolor);
     font-family: var(--font-poopins);
@@ -258,52 +300,62 @@ h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;
     border-radius: 10px;
 }
-.images_footer{
+
+.images_footer {
     display: flex;
     gap: 31px;
 }
-.image_bottom{
+
+.image_bottom {
     width: 366px;
     height: 127px;
     background: #ffffff;
 }
-.text_ p{
+
+.text_ p {
     font-family: var(--font-poopins);
     font-size: 22px;
     color: var(--color-brandcolor);
 }
-.price{
+
+.price {
     display: flex;
     gap: 31px;
 }
-.dis p{
+
+.dis p {
     font-family: var(--font-poopins);
     font-weight: 400;
     color: #C4C4C4;
     font-size: 24px;
-    
+
 }
-.without p{
+
+.without p {
     font-family: var(--font-poopins);
     font-weight: 400;
     color: #000000;
     font-size: 24px;
-    
+
 }
+
 .icon ul {
     display: flex;
-        gap: 7px;
+    gap: 7px;
     display: flex;
-    
+
 }
-.oli{
+
+.oli {
     padding-left: 22px;
     padding-top: 14px;
 }
+
 .icon ul li {
     color: #FFAF37;
 
 }
+
 /* ============ footer css part end ====================== */
 /* ============ common css part start ====================== */
 /* ============ common css part end ====================== */
